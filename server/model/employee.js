@@ -13,7 +13,7 @@ const Employee = database.define("employee", {
       notEmpty: { msg: "Can't be empty" },
     },
   },
-  latName: {
+  lastName: {
     type: Sequelize.STRING,
     allowNull: false,
     validate: {

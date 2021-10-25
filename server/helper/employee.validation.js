@@ -1,6 +1,6 @@
-const logger = require("../../logger/logger");
-const schema = require("./user.schema");
-const CustomError = require("../../utils/customError");
+const logger = require("../logger/logger");
+const schema = require("./employee.schema");
+const CustomError = require("../utils/customError");
 /* validating the request body  */
 
 exports.EmployeeValidation = async (req, res, next) => {
