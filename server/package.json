@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "this is demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run nodemon",
+    "dev": "cross-env NODE_ENV=development node index.js",
+    "production": "cross-env NODE_ENV=production node index.js",
+    "nodemon": "nodemon --exec npm run dev"
+  },
+  "author": "vivsingh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  }
+}
